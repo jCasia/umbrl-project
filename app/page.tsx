@@ -1,10 +1,13 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Features from '@/components/Features';
+import Hero from '@/components/Hero';
+import Pricing from '@/components/Pricing';
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello</h1>
-    </main>
+    <>
+      <Hero />
+      <Pricing />
+      <Features />
+    </>
   );
 }
